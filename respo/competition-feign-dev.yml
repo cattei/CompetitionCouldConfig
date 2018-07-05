@@ -1,6 +1,6 @@
 spring:
   application:
-    name: competition-config-server
+    name: competition-feign
   cloud:
      config:
           lable: master
