@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: competition-config-server
+  cloud:
+     config:
+          lable: master
+          profile: dev
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+debug: true
