@@ -21,10 +21,10 @@ zuul:
       path: /usercenter/**
       serviceId: competition-server-usercenter
     api-a:
-      path: /api-ribbon/**
+      path: /usercenterribbon/**
       serviceId: competition-ribbon
     api-b:
-      path: /api-feign/**
+      path: /usercenterfeign/**
       serviceId: competition-feign
 
 #          department:
